@@ -1,0 +1,103 @@
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~
+$ pwd
+/c/Users/Tanha
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~
+$ mkdir gitone
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~
+$ pwd
+/c/Users/Tanha
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~
+$ cd gitone/
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone
+$ touch one.txrt
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone
+$ touch one.txt
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone
+$ ^C
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone
+$ touch two.txt
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone
+$ mkdir myfolder
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone
+$ cd myfolder/
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/myfolder
+$ touch three.txt
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/myfolder
+$ cd/..
+bash: cd/..: No such file or directory
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/myfolder
+$ cd../
+bash: cd../: No such file or directory
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/myfolder
+$ cd.
+bash: cd.: command not found
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/myfolder
+$ cd ../
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone
+$ git init
+Initialized empty Git repository in C:/Users/Tanha/gitone/.git/
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone (master)
+$ dir
+myfolder  one.txt  two.txt
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone (master)
+$ git clone https://github.com/mueid22110/git_two.git
+Cloning into 'git_two'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone (master)
+$ ls
+git_two/  myfolder/  one.txt  two.txt
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone (master)
+$ cd git_two/
+.git/    one.txt  two.txt
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone (master)
+$ cd git_two/
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/git_two (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   one.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/git_two (main)
+$ ^C
+
+
+
+Tanha@DESKTOP-1LQ8I55 MINGW64 ~/gitone/git_two (main)
+$
