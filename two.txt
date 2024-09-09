@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 This file is in development branch in git
+=======
+two
+>>>>>>> master
