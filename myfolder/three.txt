@@ -1,3 +1,8 @@
+command 1: 
+
+
+
+
 
 Tanha@DESKTOP-1LQ8I55 MINGW64 ~
 $ pwd
